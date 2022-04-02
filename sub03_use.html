@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>서울식물원</title>
   <link rel="shortcut icon" href="">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/sub03_use.css">
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/sub03_use.js"></script>
+
+  <title>서울식물원_이용하기</title>
 </head>
+
 <body>
-  <? include 'inc/header.html' ?>
+  <div class="hdrWrap">
+    <header>
+      <ul class="nLeft">
+        <li><a href="sub01_story.html">식물원 이야기</a></li>
+        <li><a href="sub02_place.html">둘러보기</a></li>
+      </ul>
+      <a href="index.html"><h1></h1></a>
+      <ul class="nRight">
+        <li><a href="sub03_use.html">이용하기</a></li>
+        <li><a href="sub04_plant.html">식물정보</a></li>
+      </ul>
+    </header>
+  </div>
 
   <div class="navWrap">
     <ul>
@@ -26,11 +40,11 @@
   </div>
   <div class="content library">
     <header>
-        <h2>씨앗도서관</h2>
-        <div class="deco">
-            <i class="fas fa-leaf"></i>
-        </div>
-      </header>
+      <h2>씨앗도서관</h2>
+      <div class="deco">
+        <i class="fas fa-leaf"></i>
+      </div>
+    </header>
     <section>
       <article class="start">
         <div class="img"></div>
@@ -78,11 +92,11 @@
   </div>
   <div class="content center">
     <header>
-        <h2>식물문화센터</h2>
-        <div class="deco">
-            <i class="fas fa-leaf"></i>
-        </div>
-      </header>
+      <h2>식물문화센터</h2>
+      <div class="deco">
+        <i class="fas fa-leaf"></i>
+      </div>
+    </header>
     <section>
       <article>
         <div class="img i1"></div>
@@ -118,11 +132,11 @@
   </div>
   <div class="content convenient">
     <header>
-        <h2>편의시설</h2>
-        <div class="deco">
-            <i class="fas fa-leaf"></i>
-        </div>
-      </header>
+      <h2>편의시설</h2>
+      <div class="deco">
+        <i class="fas fa-leaf"></i>
+      </div>
+    </header>
     <section>
       <article>
         <div class="img i1"></div>
@@ -175,6 +189,16 @@
     </section>
   </div>
 
-<? include 'inc/footer.html' ?>
+  <div class="ftrWrap">
+    <footer>
+      <p><b><a href="http://www.seoul.go.kr/helper/privacy.do?tr_code=footer_02">개인정보처리방침</a></b> | <a
+          href="https://www.seoul.go.kr/helper/copyright.do">저작권 정책</a> | <a
+          href="https://www.seoul.go.kr/helper/media.do">영상정보처리기기 운영 관리방침</a> | <a
+          href="https://www.seoul.go.kr/homepageCorrect/user/hpCorrect.do">홈페이지 바로잡기</a> | <a
+          href="http://eungdapso.seoul.go.kr/Gud/Gud03/Gud0304/Gud0304_not.jsp">행정서비스 현장</a>
+        <br>CopyrightⓒSeoul Metropolitan Government all rights reserved.</p>
+    </footer>
+  </div>
 </body>
+
 </html>

@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>서울식물원</title>
+    
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="">
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/index.js"></script>
+    
+    <title>서울식물원</title>
 </head>
 
 <body>
-    <? include 'inc/header.html' ?>
+    <div class="hdrWrap">
+        <header>
+            <ul class="nLeft">
+                <li><a href="sub01_story.html">식물원 이야기</a></li>
+                <li><a href="sub02_place.html">둘러보기</a></li>
+            </ul>
+            <h1></h1>
+            <ul class="nRight">
+                <li><a href="sub03_use.html">이용하기</a></li>
+                <li><a href="sub04_plant.html">식물정보</a></li>
+            </ul>
+        </header>
+    </div>
 
     <div class="main">
         <section>
@@ -48,10 +59,10 @@
             <article>
                 <div class="img i1"></div>
                 <div class="segment">
-                    <h3>이 달의 꽃</h3>
+                    <h3>서울식물원 2022</h3>
                     <p>
-                        초롱꽃
-                        <br><i>CAMPANULA</i>
+                        서울식물원에서 맞이하는 빛나는 2022
+                        <br><i>Happy New Year!</i>
                     </p>
                     <button><a href="">MORE INFO</a></button>
                 </div>
@@ -102,7 +113,7 @@
             <article>
                 <div class="img i1"></div>
                 <div class="segment">
-                    <div class="line"></div>
+                    <div class="nametag"></div>
                     <h3>
                         <a href="sub01_story.html">식물원 이야기</a>
                     </h3>
@@ -111,7 +122,7 @@
             <article>
                 <div class="img i2"></div>
                 <div class="segment">
-                    <div class="line"></div>
+                    <div class="nametag"></div>
                     <h3>
                         <a href="sub02_place.html">둘러보기</a>
                     </h3>
@@ -120,7 +131,7 @@
             <article>
                 <div class="img i3"></div>
                 <div class="segment">
-                    <div class="line"></div>
+                    <div class="nametag"></div>
                     <h3>
                         <a href="sub03_use.html">이용하기</a>
                     </h3>
@@ -129,7 +140,7 @@
             <article>
                 <div class="img i4"></div>
                 <div class="segment">
-                    <div class="line"></div>
+                    <div class="nametag"></div>
                     <h3>
                         <a href="sub04_plant.html">식물정보</a>
                     </h3>
@@ -138,7 +149,17 @@
         </section>
     </div>
 
-    <? include 'inc/footer.html' ?>
+
+    <div class="ftrWrap">
+        <footer>
+            <p><b><a href="http://www.seoul.go.kr/helper/privacy.do?tr_code=footer_02">개인정보처리방침</a></b> | <a
+                    href="https://www.seoul.go.kr/helper/copyright.do">저작권 정책</a> | <a
+                    href="https://www.seoul.go.kr/helper/media.do">영상정보처리기기 운영 관리방침</a> | <a
+                    href="https://www.seoul.go.kr/homepageCorrect/user/hpCorrect.do">홈페이지 바로잡기</a> | <a
+                    href="http://eungdapso.seoul.go.kr/Gud/Gud03/Gud0304/Gud0304_not.jsp">행정서비스 현장</a>
+                <br>CopyrightⓒSeoul Metropolitan Government all rights reserved.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
