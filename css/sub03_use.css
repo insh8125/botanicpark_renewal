@@ -1,0 +1,182 @@
+.library section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.library section article {
+  width: 250px;
+  position: relative;
+}
+.library section article .img {
+  border-radius: 15px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.library section article .i1 {
+  background-image: url("../img/sub03_use/li_i1.png");
+}
+.library section article .i2 {
+  background-image: url("../img/sub03_use/li_i2.png");
+}
+.library section article .i3 {
+  background-image: url("../img/sub03_use/li_i3.png");
+}
+.library section article .i4 {
+  background-image: url("../img/sub03_use/li_i4.png");
+}
+.library section article .i5 {
+  background-image: url("../img/sub03_use/li_i5.png");
+}
+.library section article .i6 {
+  background-image: url("../img/sub03_use/li_i6.png");
+}
+.library section article .segment {
+  padding: 40px 20px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.library section article .segment h5 {
+  font-weight: bold;
+  line-height: 40px;
+  color: #000;
+  font-size: 18px;
+}
+.library section article .segment p {
+  margin-top: 30px;
+  color: #333;
+  font-size: 14px;
+}
+.library section article:nth-child(4) ~ * {
+  margin-top: 20px;
+}
+.library section .start .img {
+  width: calc((100vw - 1080px) / 2 + 250px);
+  height: 240px;
+  background-color: #6c3;
+  background: linear-gradient(-30deg, #7dc387 0%, #dbe9ea 100%);
+  float: right;
+  border-radius: 0 15px 15px 0;
+}
+.library section .end .img {
+  width: calc((100vw - 1080px) / 2 + 250px);
+  height: 240px;
+  background-color: #060;
+  background: linear-gradient(30deg, #0ccda3 0%, #c1fcd3 100%);
+  border-radius: 15px 0 0 15px;
+}
+.library section .end .segment p {
+  margin-top: 20px;
+}
+
+.center section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.center section article {
+  position: relative;
+}
+.center section article .img {
+  width: 520px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+.center section article .i1 {
+  background-image: url("../img/sub03_use/ce_i1.png");
+}
+.center section article .i2 {
+  background-image: url("../img/sub03_use/ce_i2.png");
+}
+.center section article .i3 {
+  background-image: url("../img/sub03_use/ce_i3.png");
+}
+.center section article .i4 {
+  background-image: url("../img/sub03_use/ce_i4.png");
+}
+.center section article .segment {
+  width: 520px;
+  height: 80px;
+  position: absolute;
+  margin: auto;
+  bottom: -70px;
+}
+.center section article .segment p {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+.center section article .segment p b {
+  color: #360;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 3px 3px 3px rgba(138, 138, 138, 0.4);
+}
+.center section article:nth-child(2) ~ * {
+  margin-top: 80px;
+}
+
+.convenient section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.convenient article .img {
+  width: 250px;
+  height: 160px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.convenient article .i1 {
+  background-image: url("../img/sub03_use/co_i1.png");
+}
+.convenient article .i2 {
+  background-image: url("../img/sub03_use/co_i2.png");
+}
+.convenient article .i3 {
+  background-image: url("../img/sub03_use/co_i3.png");
+}
+.convenient article .i4 {
+  background-image: url("../img/sub03_use/co_i4.png");
+}
+.convenient article .i5 {
+  background-image: url("../img/sub03_use/co_i5.png");
+}
+.convenient article .i6 {
+  background-image: url("../img/sub03_use/co_i6.png");
+}
+.convenient article .i7 {
+  background-image: url("../img/sub03_use/co_i7.png");
+}
+.convenient article .i8 {
+  background-image: url("../img/sub03_use/co_i8.png");
+}
+.convenient article .img:hover {
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: 0.4s;
+}
+.convenient article .segment {
+  padding: 5px 10px;
+}
+.convenient article .segment h5 {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.convenient article:nth-child(4) ~ * {
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=sub03_use.css.map */

@@ -1,0 +1,218 @@
+.hdrWrap {
+  background-color: #363;
+}
+.hdrWrap header ul li {
+  color: #fff;
+}
+
+.main {
+  height: 520px;
+  background-color: #363;
+}
+.main section {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+.main section .view {
+  width: calc((100vw - 1080px) / 2 + 1080px);
+}
+.main section .view .artWrap {
+  width: 500%;
+  display: flex;
+}
+.main section .view .artWrap article {
+  width: 20%;
+  height: 600px;
+}
+.main section .view .artWrap .img {
+  background-size: cover;
+  background-position: center;
+}
+.main section .view .artWrap .i1 {
+  background-image: url("../img/index/ma_i1.png");
+}
+.main section .view .artWrap .i2 {
+  background-image: url("../img/index/ma_i2.png");
+}
+.main section .view .artWrap .i3 {
+  background-image: url("../img/index/ma_i3.png");
+}
+.main section .view .artWrap .i4 {
+  background-image: url("../img/index/ma_i4.png");
+}
+.main section .view .artWrap .i5 {
+  background-image: url("../img/index/ma_i5.png");
+}
+.main section .btns {
+  font-size: 40px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  cursor: pointer;
+}
+.main section .btns .btPrev {
+  padding-right: 100px;
+}
+
+.notice {
+  margin-top: 80px;
+}
+.notice section {
+  display: flex;
+  justify-content: space-around;
+}
+.notice article {
+  width: calc(33.3333333333% - 20px);
+}
+.notice article .img {
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+.notice article .i1 {
+  background-image: url("../img/index/no_i1.jpg");
+}
+.notice article .i2 {
+  background-image: url("../img/index/no_i2.jpg");
+}
+.notice article .i3 {
+  background-image: url("../img/index/no_i3.png");
+}
+.notice article .segment {
+  width: 100%;
+  height: 280px;
+  background-color: #363;
+  text-align: center;
+}
+.notice article .segment h3 {
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  color: #fff;
+}
+.notice article .segment p {
+  color: #ccc;
+  line-height: 40px;
+  font-size: 16px;
+}
+.notice article .segment i {
+  font-style: italic;
+  line-height: 40px;
+}
+.notice article .segment button {
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #ccc;
+}
+.notice article .segment:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.notice .middle .segment h3 {
+  padding-top: 30px;
+}
+
+.banner {
+  padding: 80px 0;
+  background-image: url("../img/index/Untitled-2.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.banner section {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner section article {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.banner section article .img {
+  width: calc(25% - 20px);
+  height: 240px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.banner section article .i1 {
+  background-image: url("../img/index/ba_i1.png");
+}
+.banner section article .i2 {
+  background-image: url("../img/index/ba_i2.png");
+}
+.banner section article .i3 {
+  background-image: url("../img/index/ba_i3.png");
+}
+.banner section article .i4 {
+  background-image: url("../img/index/ba_i4.png");
+}
+
+.more section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.more section article {
+  width: calc(50% - 20px);
+  position: relative;
+}
+.more section article .img {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+.more section article .i1 {
+  background-image: url("../img/index/mo_i1.png");
+}
+.more section article .i2 {
+  background-image: url("../img/index/mo_i2.png");
+}
+.more section article .i3 {
+  background-image: url("../img/index/mo_i3.png");
+}
+.more section article .i4 {
+  background-image: url("../img/index/mo_i4.png");
+}
+.more section article .segment .nametag {
+  width: 340px;
+  height: 80px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 80px;
+}
+.more section article .segment h3 {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 110px;
+}
+.more section article .segment h3:hover {
+  font-weight: bold;
+}
+.more section article:nth-child(2) ~ * {
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=index.css.map */

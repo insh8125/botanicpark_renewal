@@ -1,0 +1,206 @@
+$mainColor : #363;
+
+.hello {
+    
+    section {
+        
+        article {
+            text-align: center;
+        }
+
+        .title {
+
+            .bg {
+                width: 100%;
+                height: 200px;
+                background-image: url('../img/sub01_story/he_bg.png');
+                background-size: cover;
+                background-position: center;
+            }
+
+            h3 {
+                font-weight: bold;
+                font-size: 24px;
+                font-style: italic;
+                line-height: 40px;
+                color: #fff;
+                margin: -120px 0;
+
+                b {
+                    color: #cfc;
+                }
+            }
+        }
+
+        .prose {
+            padding-top: 40px;
+
+            .first {
+                margin-top: 160px;
+            }
+
+            h3 {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 40px;
+
+                i {
+                    font-style: italic;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
+
+.info {
+
+    section {
+
+        article {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .top {
+            position: relative;
+            overflow: hidden;
+
+            .img {
+                width: 270px;
+                height: 240px;
+                background-size: cover;
+                background-position: center;
+            }
+            .i1 {
+                background-image: url('../img/sub01_story/in_i1.png');
+            }
+            .i2 {
+                background-image: url('../img/sub01_story/in_i2.png');
+                width: 520px;
+                height: 240px;
+            }
+            .i3 {
+                background-image: url('../img/sub01_story/in_i3.png');
+            }
+
+            .segment {
+                background-color: rgba(0,0,0,0.4);
+                width: 520px;
+                height: 240px;
+                position: absolute;
+                margin: auto;
+                left: 0;
+                right: 20px;
+                bottom: 240px;
+                transition: bottom 0.7s;
+
+                p {
+                    padding: 40px 20px;
+                    margin-top: 30px;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #fff;
+                }
+            }
+        }
+        .top:hover {
+            
+            .segment {
+                bottom: 0;
+            }
+        }
+
+        .bottom {
+            position: relative;
+            overflow: hidden;
+
+            .img {
+                width: 360px;
+                height: 200px;
+            }
+            .i4 {
+                background-image: url('../img/sub01_story/in_i4.png');
+            }
+            .i5 {
+                background-image: url('../img/sub01_story/in_i5.png');
+                width: 340px;
+                height: 200px;
+            }
+            .i6 {
+                background-image: url('../img/sub01_story/in_i6.png');
+            }
+
+            .segment {
+                background-color: rgba(0,0,0,0.4);
+                width: 340px;
+                height: 200px;
+                position: absolute;
+                margin: auto;
+                left: 0;
+                right: 20px;
+                top: 200px;
+                transition: top 0.7s;
+            }
+
+            p {
+                padding: 40px 20px;
+                margin-top: 30px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 20px;
+                color: #fff;
+            }
+        }
+        .bottom:hover {
+
+            .segment {
+                top: 0;
+            }
+        }
+
+        .notice {
+            padding-left: 5px;
+            height: 80px;
+        }
+    }
+}
+
+.route {
+    
+    section {
+
+        .map {
+            width: 100%;
+            height: 280px;
+            background-color: #ccc;
+        }
+
+        .way {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 40px;
+
+            .ico {
+                margin-left: 20px;
+                font-size: 40px;
+                line-height: 80px;
+                color: $mainColor;
+            }
+
+            p {
+                padding: 20px 0;
+                margin-left: 30px;
+                height: 80px;
+            }
+        }
+
+        .last {
+            p {
+                padding: 30px 0;
+            }
+        }
+    }
+}

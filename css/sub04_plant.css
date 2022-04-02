@@ -1,0 +1,188 @@
+.flower .top {
+  display: flex;
+  justify-content: space-around;
+}
+.flower .top article .img {
+  background-size: cover;
+  background-position: center;
+}
+.flower .top article .i1 {
+  width: 540px;
+  height: 400px;
+  background-image: url("../img/sub04_plant/fl_i1.jpg");
+  margin-left: auto;
+}
+.flower .top article .i2 {
+  width: calc((100vw - 1080px) / 2 + 540px);
+  height: 320px;
+  background-image: url("../img/sub04_plant/fl_i2.jpg");
+}
+.flower .top article .segment {
+  width: 430px;
+  height: 240px;
+  background-color: rgba(250, 208, 196, 0.8);
+  background: linear-gradient(-210deg, #fad0c4 0%, #f1a7f1 74%);
+  text-align: center;
+  font-size: 16px;
+  color: rgb(65, 65, 65);
+  padding: 40px 0;
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+.flower .top article .segment h4 {
+  font-weight: bold;
+}
+.flower .top article .segment p {
+  margin-top: 40px;
+  height: 80px;
+}
+.flower .top .atLeft {
+  width: 610px;
+  position: relative;
+}
+.flower .top .atRight {
+  width: 430px;
+  padding-top: 80px;
+}
+.flower .bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.flower .bottom article {
+  width: 250px;
+  position: relative;
+}
+.flower .bottom article .img {
+  margin-top: 20px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+.flower .bottom article .i3 {
+  background-image: url("../img/sub04_plant/fl_i3.jpg");
+}
+.flower .bottom article .i4 {
+  background-image: url("../img/sub04_plant/fl_i4.jpg");
+}
+.flower .bottom article .i5 {
+  background-image: url("../img/sub04_plant/fl_i5.jpg");
+}
+.flower .bottom article .i6 {
+  background-image: url("../img/sub04_plant/fl_i6.jpg");
+}
+
+.study section {
+  display: flex;
+  justify-content: space-around;
+}
+.study section article {
+  width: 340px;
+}
+.study section article .img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.study section article .i1 {
+  background-image: url("../img/sub04_plant/st_i1.png");
+}
+.study section article .i2 {
+  background-image: url("../img/sub04_plant/st_i2.png");
+}
+.study section article .i3 {
+  background-image: url("../img/sub04_plant/st_i3.png");
+}
+.study section article .segment {
+  border-top: 2px solid #693;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+.study section article .segment h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  line-height: 80px;
+}
+.study section article .segment h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+.study section article .segment p {
+  margin-top: 20px;
+}
+
+.plant section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.plant section article {
+  width: 250px;
+}
+.plant section article .img {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.plant section article .i1 {
+  background-image: url("../img/sub04_plant/pl_i1.png");
+}
+.plant section article .i2 {
+  background-image: url("../img/sub04_plant/pl_i2.png");
+}
+.plant section article .i3 {
+  background-image: url("../img/sub04_plant/pl_i3.png");
+}
+.plant section article .i4 {
+  background-image: url("../img/sub04_plant/pl_i4.png");
+}
+.plant section article .i5 {
+  background-image: url("../img/sub04_plant/pl_i5.png");
+}
+.plant section article .i6 {
+  background-image: url("../img/sub04_plant/pl_i6.png");
+}
+.plant section article .i7 {
+  background-image: url("../img/sub04_plant/pl_i7.png");
+}
+.plant section article .i8 {
+  background-image: url("../img/sub04_plant/pl_i8.png");
+}
+.plant section article .img:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: 0.4s;
+}
+.plant section article .segment {
+  padding: 5px 10px;
+}
+.plant section article .segment h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000;
+}
+.plant section article .segment p {
+  font-size: 14px;
+  font-style: italic;
+  height: 40px;
+  padding: 10px 0;
+}
+.plant section article .segment h5 {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 20px;
+}
+.plant section article:nth-child(4) ~ * {
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=sub04_plant.css.map */

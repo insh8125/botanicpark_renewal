@@ -1,0 +1,152 @@
+@import url('all.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+$mainColor : #363;
+$subColor : #693;
+
+body {
+  font-family: 'Noto Sans KR', 'Malgun gothic', '맑은 고딕', 'applegothic';
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #555;
+  line-height: 20px;
+  overflow-x: hidden;
+}
+
+.hdrWrap {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0 auto;
+
+    position: sticky;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        ul {
+            width: calc(50% - 80px);
+            display: flex;
+            justify-content: flex-start;
+
+            li {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 40px;
+                height: 40px;
+                padding: 0 5px;
+                margin: 0 20px;
+            }
+            li:hover {
+                border-bottom: 2px solid $subColor;
+            }
+        }
+
+        .nLeft {
+            justify-content:flex-end;
+        }
+
+        h1 {
+            width: 160px;
+            height: 80px;
+            background-image: url('../img/common/logo.png');
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -20px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.navWrap {
+    top: 60px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin-right: 50px;
+            font-size: 18px;
+            line-height: 40px;
+            transition: font-size 0.3s;
+            cursor: pointer;
+        }
+        li:hover {
+            color: $mainColor;
+            font-size: 24px;
+        }
+    }
+}
+
+.content {
+    padding: 120px 0;
+
+    header {
+        text-align: center;
+
+        h2 {
+            font-weight: bold;
+            font-size: 2rem;
+            line-height: 40px;
+            color: #000;
+        }
+
+        .deco {
+            width: 380px; height: 40px;
+            margin: 0 auto;
+            text-align: center; line-height: 40px;
+            position: relative;
+            font-size: 15px;
+            color: $subColor;
+        }
+        .deco::before {
+            display: block;
+            content: '';
+            height: 2px;
+            width: calc(50% - 20px);
+            background-color: #cc3;
+            margin: auto;
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+        }
+        .deco::after {
+            display: block;
+            content: '';
+            height: 2px;
+            width: calc(50% - 20px);
+            background-color: #cc3;
+            margin: auto;
+            position: absolute;
+            right: 0; top: 0; bottom: 0;
+        }
+    }
+
+    section {
+        width: 1080px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+}
+
+.ftrWrap {
+    footer {
+        background-color: #000;
+
+        p {
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px;
+            height: 80px;
+            color: #999;
+            padding: 20px 0;
+        
+            b {
+                font-weight: bold;
+            }
+        }
+    }
+}

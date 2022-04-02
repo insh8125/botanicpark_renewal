@@ -1,0 +1,268 @@
+$mainColor : #693;
+
+.open {
+
+    .top {
+        display: flex;
+        justify-content: space-around;
+
+        article {
+
+            .img {
+                background-size: cover;
+                background-position: center;
+            }
+            .i1 {
+                width: 540px;
+                height: 400px;
+                background-image: url('../img/sub02_place/op_i1.png');
+                margin-left: auto;
+            }
+            .i2 {
+                width: calc((100vw - 1080px) / 2 + 540px);
+                height: 320px;
+                background-image: url('../img/sub02_place/op_i2.png');
+            }
+
+            .segment {
+                width: 340px;
+                height: 240px;
+                background-color: #693;
+                text-align: center;
+                font-size: 18px;
+                color: #fff;
+                padding: 40px 0;
+                position: absolute;
+                left: 0;
+                bottom: -60px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+
+                h4 {
+                    font-weight: bold;
+                }
+
+                p {
+                    margin-top: 40px;
+                    height: 80px;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .atLeft {
+            width: 610px;
+            position: relative;
+        }
+
+        .atRight {
+            width: 430px;
+            padding-top: 80px;
+        }
+    }
+
+    .bottom {
+        @extend .top;
+
+        article {
+            width: 250px;
+            position: relative;
+
+            .img {
+                @extend .img;
+                height: 240px;
+            }
+            .i3 {
+                background-image: url('../img/sub02_place/op_i3.png');
+            }
+            .i4 {
+                background-image: url('../img/sub02_place/op_i4.png');
+            }
+            .i5 {
+                background-image: url('../img/sub02_place/op_i5.png');
+            }
+            .i6 {
+                background-image: url('../img/sub02_place/op_i6.png');
+            }
+            
+            button {
+                display: block;
+                width: 110px;
+                height: 40px;
+                background-color: #f90;
+                border-radius: 10px;
+                font-size: 14px;
+                color: #000;
+                border: none;
+                font-weight: bold;
+                margin: 0 auto;
+                margin-top: -20px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            }
+        }
+    }
+}
+
+.place {
+    
+    section {
+        
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: row-reverse;
+
+            .image {
+                box-shadow: 0 3px 10px rgba(0,0,0,0.6);
+    
+                .img {
+                    width: 700px;
+                    height: 320px;
+                    overflow: hidden;
+    
+                    li {
+                        height: 100%;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+                .i1 {
+                    background-image: url('../img/sub02_place/pl_i1.png');
+                }
+                .i2 {
+                    background-image: url('../img/sub02_place/pl_i2.png');
+                }
+                .i3 {
+                    background-image: url('../img/sub02_place/pl_i3.png');
+                }
+                .i4 {
+                    background-image: url('../img/sub02_place/pl_i4.png');
+                }
+                .i5 {
+                    background-image: url('../img/sub02_place/pl_i5.png');
+                }
+                .i6 {
+                    background-image: url('../img/sub02_place/pl_i6.png');
+                }
+                .i7 {
+                    background-image: url('../img/sub02_place/pl_i7.png');
+                }
+                .i8 {
+                    background-image: url('../img/sub02_place/pl_i8.png');
+                }
+                .i9 {
+                    background-image: url('../img/sub02_place/pl_i9.png');
+                }
+    
+                .btns {
+                    float: right;
+                    margin-top: -180px;
+                    padding-right: 10px;
+    
+                    .b1 {
+                        font-size: 40px;
+                        height: 80px;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+            .segment {
+                width: 610px;
+                height: 240px;
+                border-radius: 10px;
+                text-align: right;
+                padding: 40px 60px;
+                margin-right: -220px;
+                margin-top: 40px;
+                background-color: rgba(255,255,153,0.8);
+                background: linear-gradient(
+                  -30deg,
+                  #ea5a6f 0%,
+                  #de791e 50%,
+                  #fccf3a 100%
+                );
+                color: #fff;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    
+                h5 {
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 40px;
+                }
+    
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }
+        article:first-child~* {
+            margin-top: 40px;
+        }
+
+        .reverse {
+            flex-flow: row;
+
+            .segment {
+                margin-left: -220px;
+                margin-right: 0;
+                text-align: left;
+            }
+
+            .image {
+
+                .btns {
+                    float: left;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.other {
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        
+        article {
+            width: 520px;
+        
+            .img {
+                height: 240px;
+                background-size: cover;
+                background-position: center;
+            }
+            .i1 {
+                background-image: url('../img/sub02_place/ot_i1.png');
+            }
+            .i2 {
+                background-image: url('../img/sub02_place/ot_i2.png');
+            }
+
+            .segment {
+                width: 520px;
+                background-color: #363;
+                padding: 40px 20px;
+                text-align: center;
+
+                h3 {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 80px;
+                    color: #fff;
+                }
+
+                p {
+                    font-size: 18px;
+                    height: 80px;
+                    color: #ccc;
+                }
+            }
+        }
+        article:hover {
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+        }
+    }
+}
